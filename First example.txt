@@ -1,0 +1,7 @@
+var sum = 0;
+var numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+function myFunction(item) {
+return sum += item;
+}
+document.write(sum);

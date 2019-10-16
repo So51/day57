@@ -1,0 +1,5 @@
+function myFunction(item, index) {
+ document.write(index + ":" + item + "<br>");
+}
+ var fruits = ["Banana", "Orange", "Apple", "Mango"];
+ fruits.forEach(myFunction);
